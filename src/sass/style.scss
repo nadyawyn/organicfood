@@ -27,7 +27,17 @@
 }
 
 body {
+	position: relative;
+	
+}
+.bgcontainer {
 	background: url(../img/bg_top.jpg) top (center/cover) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 1700px;
 }
 .container {
 	width: 1170px;
@@ -37,3 +47,4 @@ body {
 @import "blocks/header";
 @import "blocks/products";
 @import "blocks/quality-food";
+@import "blocks/services";

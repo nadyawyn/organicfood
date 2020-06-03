@@ -1,0 +1,80 @@
+.services {
+	margin-top: 160px;
+	padding-bottom: 140px;
+
+	&__title {
+		text-transform: uppercase;
+		font-size: 40px;
+		font-weight: 200;
+		text-align: center;
+
+		.bold {
+			font-weight: 800;
+		}
+	}
+	&__subtitle {
+		font-size: 18px;
+		color: #b3b3b3;
+		text-align: center;
+
+		width: 530px;
+
+		margin: 0 auto 95px auto;
+	}
+
+	&__items {
+		margin-bottom: 90px;
+		@include reset-list;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+		font-size: 18px;
+		font-weight: 700;
+		position: relative;
+		padding-top: 90px;
+
+		&::before {
+			content: "";
+				display: block;
+				width: 60px;
+				height: 60px;
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+		}
+
+		&_1 {
+			&::before {
+				background: url(../icons/agro_food_services/001.png) center center no-repeat;
+			}
+		}
+		&_2 {
+			&::before {
+				background: url(../icons/agro_food_services/002.png) center center no-repeat;
+			}
+		}
+		&_3 {
+			&::before {
+				background: url(../icons/agro_food_services/003.png) center center no-repeat;
+			}
+		}
+		&_4 {
+			&::before {
+				background: url(../icons/agro_food_services/004.png) center center no-repeat;
+			}
+		}
+		&_5 {
+			&::before {
+				background: url(../icons/agro_food_services/005.png) center center no-repeat;
+			}
+		}
+		&_6 {
+			&::before {
+				background: url(../icons/agro_food_services/006.png) center center no-repeat;
+			}
+		}
+	}
+}
