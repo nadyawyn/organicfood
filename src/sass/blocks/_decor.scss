@@ -1,0 +1,22 @@
+.decor {
+	height: 690px;
+	padding-top: 100px;
+	
+	.container {
+		position: relative;
+	}
+	
+
+	background: url(../img/tasty_cakes.jpg) center (center/cover) no-repeat;
+
+	&__label {
+		position: absolute;
+		top: 37px;
+		right: 147px;
+		height: 198px;
+		width: 198px;
+		display: block;
+
+		background: url(../img/organic_fresh_food.png) center (center/contain) no-repeat;
+	}
+}

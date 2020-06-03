@@ -1,0 +1,54 @@
+.tips {
+	height: 550px;
+	background-color: #ededed;
+	&__grid {
+		transform: translateY(-110px);
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.2);
+
+		&-img {
+			width: 292px;
+		}
+		&-text {
+			background-color: #fff;
+			width: calc(100% - 292px);
+			padding: 20px 30px;
+
+			p {
+				font-size: 14px;
+				color: #666666;
+			}
+		}
+		&-title {
+			font-size: 18px;
+			font-weight: 500;
+		}
+	}
+	&__grid-item {
+		display: flex;
+		height: 222px;
+
+		&_1 {
+			.tips__grid-img {
+				background: url(../../img/agro_perfect/001.jpg);
+			}
+		}
+		&_2 {
+			.tips__grid-img {
+				background: url(../../img/agro_perfect/002.jpg);
+			}
+		}
+		&_3 {
+			.tips__grid-img {
+				background: url(../../img/agro_perfect/003.jpg);
+			}
+		}
+		&_4 {
+			.tips__grid-img {
+				background: url(../../img/agro_perfect/004.jpg);
+			}
+		}
+	}
+}
