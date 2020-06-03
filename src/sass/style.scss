@@ -3,6 +3,8 @@
 @import "libs/animate";
 
 @import "base/variables";
+@import "base/mixins";
+@import "base/buttons";
 
 * {
 	box-sizing: border-box;
@@ -33,3 +35,4 @@ body {
 }
 
 @import "blocks/header";
+@import "blocks/products";

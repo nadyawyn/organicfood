@@ -1,18 +1,17 @@
 .button {
+	width: 155px;
+	height: 45px;
+	border-radius: 25px;
+
+	border: none;
+
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+
 	cursor: pointer;
 
-	width: 220px;
-	height: 70px;
-	background-color: $color_green;
-	border: none;
-	border-radius: 8px;
-
-	color: #ffffff;
-	font-size: 25px;
-
-	&_small {
-		width: 115px;
-		height: 45px;
-		font-size: 18px;
+	&_white {
+		background: #ffffff;
 	}
 }

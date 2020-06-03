@@ -1,5 +1,7 @@
 .header {
 	position: relative;
+	margin-top: 107px;
+	height: 740px;
 	&__nav {
 		height: 107px;
 		border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.3);
@@ -8,11 +10,71 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-
+		z-index: 999;
 		width: 100%;
+
+		&-links {
+			@include reset-list;
+
+			display: flex;
+			flex-flow: row nowrap;
+			
+
+			margin-left: 170px;
+
+			position: absolute;
+			top: 0;
+			height: 100%;
+
+			font-size: 16px;
+		}
+		&-link {
+			margin-right: 20px;
+			position: relative;
+
+			a {
+				color: #ffffff;
+				text-decoration: none;
+
+				display: block;
+				height: 100%;
+
+				padding-top: 42px;
+			}
+			a:hover {
+					&::after {
+					content: "";
+					display: block;
+					width: 100%;
+					height: 4px;
+					position: absolute;
+
+					bottom: 27px;
+
+					background-color: $color_yellow;
+				}
+			}
+
+			a.active {
+				&::after {
+					content: "";
+					display: block;
+					width: 100%;
+					height: 4px;
+					position: absolute;
+
+					bottom: 27px;
+
+					background-color: $color_yellow;
+				}
+			}
+			
+			
+			
+		}
 	}
 	&__logo {
-		display: block;
+		display: inline-block;
 		width: 100px;
 		height: 130px;
 
@@ -25,5 +87,18 @@
 
 			background: url(../../icons/logo_agro.png) center no-repeat;
 		}
+
+	}
+	&__button {
+		position: absolute;
+		right: 0;
+		top: 30px;
+	}
+	.container {
+		position: relative;
+	}
+	
+	&__organic-food {
+		margin-top: 195px;
 	}
 }
