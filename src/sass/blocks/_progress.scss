@@ -1,3 +1,63 @@
 .progress {
 	height: 545px;
+	margin-top: 150px;
+
+	&__title {
+		text-align: center;
+	}
+	&__subtitle {
+		margin: 0 auto 95px auto;
+	}
+	&__items {
+		@include reset-list;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		font-size: 16px;
+		.bold {
+			font-size: 50px;
+			font-weight: 800;
+		}
+		height: 77px;
+		padding-left: 100px;
+		
+
+
+		position: relative;
+
+		&::before {
+			content: "";
+			display: block;
+			width: 70px;
+			height: 100%;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+
+		}
+		&_1 {
+			&::before {
+				background: url(../icons/agro_progress/001.png) center (center/contain) no-repeat;
+			}
+		}
+		&_2 {
+			&::before {
+				background: url(../icons/agro_progress/002.png) center (center/contain) no-repeat;
+			}
+		}
+		&_3 {
+			&::before {
+				background: url(../icons/agro_progress/003.png) center (center/contain) no-repeat;
+			}
+		}
+		&_4 {
+			&::before {
+				background: url(../icons/agro_progress/004.png) center (center/contain) no-repeat;
+			}
+		}
+	}
+		
+	
 }
