@@ -1,0 +1,38 @@
+.quality-food {
+	margin-top: 150px;
+
+	&__items {
+		position: relative;
+	}
+	&__item {
+		position: absolute;
+
+		&_1 {
+			top: 36px;
+			left: 0;
+			z-index: 1;
+			display: block;
+			width: 720px;
+			height: 493px;
+			background: url(../../img/quality_food/001.jpg) center (center/cover) no-repeat;
+		}
+		&_2 {
+			top: 0;
+			left: 430px;
+			z-index: 2;
+			display: block;
+			width: 330px;
+			height: 490px;
+			background: url(../../img/quality_food/002.jpg) center (center/cover) no-repeat;
+		}
+		&_3 {
+			top: 40px;
+			right: 0;
+			z-index: 3;
+			display: block;
+			width: 525px;
+			height: 426px;
+			background: url(../../img/quality_food.png) center (center/cover) no-repeat;
+		}
+	}
+}
