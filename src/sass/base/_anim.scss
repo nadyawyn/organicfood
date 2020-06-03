@@ -1,0 +1,112 @@
+@keyframes buttonScaleUp {
+	from {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes demoScaleUp {
+	from {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(2);
+	}
+}
+
+@keyframes elRotate {
+	from {
+		transform: none;
+	}
+	25% {
+		transform: rotate(10deg);
+	}
+	50% {
+		transform: rotate(25deg);
+		transform: scale(1.4);
+		//transform: translateX(-20px);
+	}
+	
+	to {
+		transform: rotate(5deg);
+	}
+}
+@keyframes elRotateL {
+	from {
+		transform: none;
+	}
+	25% {
+		transform: rotate(-10deg);
+	}
+	50% {
+		transform: rotate(-25deg);
+		
+		transform: translateY(-20px);
+		
+	}
+	
+	to {
+		transform: rotate(-5deg);
+	}
+}
+
+@keyframes elRotateB {
+	from {
+		transform: none;
+	}
+	25% {
+		transform: rotate(10deg);
+	}
+	50% {
+		transform: rotate(25deg);
+		
+		transform: translateY(60px);
+		
+	}
+	
+	to {
+		transform: rotate(-5deg);
+	}
+}
+
+
+.animated_def {
+	animation: elRotate 3s ease-in-out 1;
+}
+.animated_h {
+	&:hover {
+		animation: elRotate 3s ease-in-out 1;
+	}
+}
+.animated_l {
+	
+		animation: elRotateL 3s ease-in-out 1;
+
+}
+.animated_hl {
+	&:hover {
+		animation: elRotateL 3s ease-in-out 1;
+	}
+
+}
+
+.animated_b {
+
+		animation: elRotateB 3s ease-in-out 1;
+
+}
+
+.animated_hb {
+	&:hover {
+		animation: elRotateB 3s ease-in-out 1;
+	}
+
+}

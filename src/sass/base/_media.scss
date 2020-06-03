@@ -1,0 +1,666 @@
+@media (max-width: $width_1) {
+	.find-food {
+		&__text {
+			width: 550px;
+			h2 {
+				font-size: 36px;
+			}
+		}
+	}
+	.tap {
+		&__text {
+			right: 280px;
+			h2 {
+				font-size: 36px;
+			}
+		}
+	}
+	.track {
+		&__coffee {
+			left: 268px;
+			width: 280px;
+		}
+		&__text {
+			width: 600px;
+			h2 {
+				font-size: 36px;
+			}
+		}
+	}
+	.get-app {
+		&__foods {
+			right: 20%;
+			bottom: 200px;
+		}
+		&__herb {
+			bottom:420px;
+		}
+	}
+}
+
+@media (max-width: $width_2) {
+	.header {
+		background-size: 90%;
+
+		&__text {
+			top: 138px;
+		}
+
+		&__onion {
+			top: 558px;
+		}
+	}
+	.discover {
+		height: 670px;
+
+		&__container {
+			background: url(../img/bg/bg__002.png) top 17px left no-repeat;
+		}
+	}
+	.find-food {
+		background-size: 55%;
+		height: 1000px;
+
+		&__bgcontainer {
+			background: url(../img/bg/bg__003_base.svg) bottom -300px center/cover no-repeat;
+		}
+		&__text {
+			top: 176px;
+
+			&::before {
+				top: -115px;
+			}
+		}
+	}
+	.tap {
+		&__text {
+			right: 90px;
+			top: 175px;
+			h2 {
+				font-size: 32px;
+			}
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__004.png) left bottom 20px no-repeat,
+			url(../img/bg/bg__004_2.png) right no-repeat,
+			url(../img/bg/bg__002_base.svg) bottom -290px center/cover no-repeat;
+		}
+	}
+
+	.track {
+		height: 900px;
+		margin-top: -80px;
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1.png) right 200px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+		&__coffee {
+			top: -15px;
+			left: 240px;
+		}
+	}
+	.get-app {
+		&__bgcontainer {
+			background: url(../img/bg/bg__006.png) left 25px top 0 no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
+		}
+
+		&__icons {
+			margin-top: 44px;
+		}
+		&__foods {
+			right: 90px;
+		}
+		&__herb {
+			bottom:420px;
+		}
+	}
+} 
+
+@media (max-width: $width_3) {
+	.container {
+		width: 100%;
+		padding: 0 30px;
+	}
+	.signup {
+		right: 55px;
+	}
+	.button_small {
+		font-size: 16px;
+	}
+	.discover {
+		&__container {
+			background: url(../img/bg/bg__002.png) top 17px left 45px no-repeat;
+		}
+		&__text {
+			right: 30px;
+		}
+	}
+	.find-food {
+		&__text {
+			left: 40px;
+		}
+	}
+	.tap {
+		height: 760px;
+		&__bgcontainer {
+			background: url(../img/bg/bg__004s.png) left bottom 100px no-repeat,url(../img/bg/bg__004_2.png) right no-repeat,url(../img/bg/bg__002_base.svg) bottom -290px center/cover no-repeat;
+		}
+		&__mushroom {
+			right: 384px;
+			top: -115px;
+		}
+		&__text {
+			right: 43px;
+			top: 149px;
+			width: 482px;
+		}
+	}
+	.track {
+		height: 870px;
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1s.png) right 200px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+		&__coffee {
+			top: 20px;
+		}
+		&__text {
+			left: 30px;
+			top: 250px;
+			width: 492px;
+		}
+	}
+	.get-app {
+		height: 937px;
+		&__bgcontainer {
+			background: url(../img/bg/bg__006.png) left -25px top 0 no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
+		}
+		&__herb {
+			bottom:420px;
+		}
+	}
+}
+
+@media (max-width: $width_4) {
+	.find-food {
+		height: 780px;
+		background-size: 50%;
+		&__bgcontainer {
+			background: url(../img/bg/bg__003_base.svg) bottom -200px center/cover no-repeat;
+		}
+
+		&__text {
+			top: 127px;
+		}
+	}
+	.tap {
+		&__mushroom {
+			right: 115px;
+			top: -130px;
+		}
+		&__text {
+			top: 110px;
+			width: 397px;
+		}
+	}
+	.track {
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1s.png) right 34px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+	}
+	.get-app {
+		&__bgcontainer {
+			background: url(../img/bg/bg__006.png) left -61px top -70px no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
+		}
+		&__leaves {
+			top: -68px;
+			right: 94px;
+		}
+		&__herb {
+			bottom:420px;
+		}
+	}
+}
+
+@media (max-width: $width_5) {
+	.header {
+		height: 700px;
+		h2 {
+			font-size: 36px;
+		}
+		h3 {
+			margin: 34px 0 30px 0;
+		}
+		&__onion {
+			top: 446px;
+			left: 265px;
+		}
+	}
+	.discover {
+		height: 600px;
+		&__leaf {
+			top: -51px;
+			right: 145px;
+		}
+		&__container {
+			background: url(../img/bg/bg__002.png) top 53px left 45px no-repeat;
+			background-size: 50%;
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__002_base.svg) bottom -220px center/cover no-repeat;
+		}
+		&__text {
+			width: 435px;
+
+			.button_small {
+				margin-top: 25px;
+			}
+		}
+	}
+	.find-food {
+		&__text {
+			width: 430px;
+
+			h2 {
+				font-size: 32px;
+			}
+		}
+	}
+	.tap {
+		&__text {
+			background-color: rgba($color: #ffffff, $alpha: .8);
+
+			top: 130px;
+			left: 0;
+			right: auto;
+			width: 100%;
+			padding: 10px 30px;
+			text-align: center;
+
+			&::after {
+				left: 130px;
+				bottom: 40px;
+			}
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__004s.png) left bottom 100px no-repeat,url(../img/bg/bg__004_2.png) right no-repeat,url(../img/bg/bg__002_base.svg) bottom -248px center/cover no-repeat;
+		}
+	}
+	.track {
+		&__coffee {
+			left: 115px;
+		}
+		&__text {
+			width: 420px;
+			h2 {
+				font-size: 28px;
+			}
+		}
+		&__foods {
+			left: 2px;
+			bottom: 43px;
+		}
+	}
+	.get-app {
+		&__herb {
+			bottom: 415px;
+		}
+
+		&__text {
+			top: 260px;
+			left: 0;
+			right: auto;
+			background-color: rgba($color: #ffffff, $alpha: .8);
+			width: 100%;
+
+			padding: 20px 40px;
+
+			&::before {
+				left: auto;
+				right: 80px;
+				top: -67px;
+			}
+		}
+
+		&__foods {
+			display: none;
+		}
+	
+	}
+	.delivery {
+		height: 450px;
+		&__subtitle {
+			font-size: 22px;
+		}
+		&__text {
+			font-size: 16px;
+			&-item {
+				&:first-child {
+					padding-right: 50px;
+				}
+				&:last-child {
+					padding-left: 50px;
+				}
+			}
+		}
+	}
+	.footer {
+		&__nav {
+			width: 490px;
+		}
+	}
+}
+
+@media (max-width: $width_6) {
+	.header {
+		&__text {
+			width: 400px;
+			top: 175px;
+		}
+		&__title {
+			margin-bottom: 10px;
+		}
+		&__subtitle {
+			margin-top: 20px;
+		}
+	}
+	.discover {
+		&__text {
+			h2 {
+				font-size: 28px;
+				line-height: 42px;
+			}
+			width: 387px;
+		}
+	}
+	.find-food {
+		background-size: 60%;
+		&__text {
+			left: 0;
+			background-color: rgba($color: #ffffff, $alpha: .8);
+			width: 100%;
+			padding: 20px 40px;
+			h2 {
+				font-size: 28px;
+				line-height: 40px;
+			}
+		}
+	}
+	.track {
+		&__text {
+			left: 0;
+			background-color: rgba($color: #ffffff, $alpha: .8);
+			width: 100%;
+			padding: 20px 40px;
+			h2 {
+				font-size: 28px;
+				line-height: 40px;
+			}
+		}
+		&__coffee {
+			left: 50px;
+		}
+		&__foods {
+			bottom: -1px;
+		}
+	}
+}
+
+@media (max-width: $width_7) {
+	.header {
+		&__onion {
+			top: 409px;
+		}
+	}
+	.discover {
+		&__leaf {
+			top: -32px;
+			right: 52px;
+		}
+		&__text {
+			top: 298px;
+		}
+	}
+	.find-food {
+		&__text {
+			top: 183px;
+		}
+	}
+	.tap {
+		&__bgcontainer {
+			background: url(../img/bg/bg__004s.png) left bottom 100px no-repeat,url(../img/bg/bg__002_base.svg) bottom -248px center/cover no-repeat;
+		}
+		&__mushroom {
+			right: 6px;
+			top: -193px;
+		}
+		&__text {
+			&::after {
+				bottom: -15px;
+			}
+		}
+	}
+	.track {
+		&__coffee {
+			display: none;
+		}
+		&__foods {
+			width: 400px;
+			height: 240px;
+			bottom: 43px;
+		}
+	}
+	.get-app {
+		&__leaves {
+			width: 205px;
+			height: 205px;
+			right: 5px;
+			top: -15px;
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__006.png) left -229px top -40px no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
+		}
+		&__herb {
+			bottom: 330px;
+		}
+	}
+	.delivery {
+		margin-top: -65px;
+		height: auto;
+		margin-bottom: 50px;
+
+		&__text {
+			flex-flow: column nowrap;
+
+			&-item {
+				width: 100%;
+				text-align: center;
+				&:first-child {
+					border: none;
+					padding-right: 20px;
+				}
+				&:last-child {
+					padding-left: 0;
+					margin-top: 50px;
+					padding-left: 20px;
+				}
+
+				padding: 0 20px 0 20px;
+			}
+		}
+	}
+	
+}
+
+@media (max-width: $width_8) {
+	
+	.signup {
+		position: relative;
+		right: auto;
+		top: 30px;
+	}
+	.header {
+		background-size: 144%;
+		&__text {
+			top: 265px;
+		}
+		&__onion {
+			top: 390px;
+			left: 234px;
+		}
+	}
+	.find-food {
+		height: 660px;
+		&__text {
+			top: 83px;
+		}
+	}
+	.tap {
+		&__mushroom {
+			display: none;
+		}
+	}
+	.track {
+		height: 900px;
+		&__foods {
+			bottom: 40px;
+			left: 32px;
+		}
+	}
+	.get-app {
+		&__leaves {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: $width_9) {
+	
+	.signup {
+		text-align: center;
+		&__form {
+			input {
+				width: 230px;
+			}
+		}
+	}
+	.header {
+		&__onion {
+			display: none;
+		}
+		&__text {
+			padding-left: 30px;
+			width: 100%;
+		}
+	}
+	.container {
+		padding: 0;
+	}
+	.address__form {
+		input {
+			width: 295px;
+		}
+	}
+	.discover {
+		&__leaf {
+			top: -23px;
+			right: 35px;
+		}
+		&__text {
+			right: auto;
+			width: 100%;
+			padding-left: 30px;
+			h2 {
+				font-size: 26px;
+			}
+		}
+		&__container {
+			background: url(../img/bg/bg__002.png) top 90px left 45px no-repeat;
+			background-size: 50%;
+		}
+	}
+	.find-food {
+		&__text {
+			h2 {
+				font-size: 24px;
+			}
+		}
+	}
+	.track {
+		&__foods {
+			width: 340px;
+		}
+	}
+	.tap {
+		&__text {
+			h2 {
+				font-size: 26px;
+			}
+		}
+	}
+	.get-app {
+		&__title {
+			margin-left: 0;
+		}
+	}
+	.delivery {
+		&__text {
+			&-item {
+				padding: 0 20px 0 20px;
+			}
+		}
+	}
+	.footer {
+		padding-top: 30px;
+		padding-left: 20px;
+		&__bgcontainer {
+			display: none;
+		}
+		&__nav {
+			flex-flow: column nowrap;
+			margin-left: 50px;
+		}
+	}
+} 
+@media (max-width: $width_10) {
+	
+	.header {
+		h2 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+	.track {
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1s.png) right -25px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+	}
+}
+@media (max-width: $width_11) {
+	
+	.signup {
+		.button {
+			margin-top: 20px;
+		}
+	}
+	.track {
+		&__foods {
+			width: 313px;
+			left: -7px;
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1s.png) right -43px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+	}
+	.tap {
+		&__text {
+			&::after {
+				bottom: -178px;
+			
+			}
+		}
+	}
+	.address__form {
+		input {
+			width: 253px;
+		}
+	}
+}
