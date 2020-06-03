@@ -15,16 +15,24 @@
 
 		&-item {
 			outline: 1px solid yellowgreen;
-		
+			position: relative;
+
 			&_1 {
 				grid-row-start: 1; 
 				 grid-row-end: 3; 
 				 
-			
+				a:hover {
+					background: url(../../img/products/awesome_sweets_2.jpg) center (center/cover) no-repeat;
+ 				}
 			}
 			&_2 {
 				grid-column-start: 2; 
-    			grid-column-end: 4; 
+				 grid-column-end: 4; 
+			}
+			&_3 {
+				a:hover {
+					background: url(../../img/products/tasty_meat_2.jpg) center (center/cover) no-repeat;
+ 				}
 			}
 			&_4 {
 				grid-column-start: 2; 
@@ -32,8 +40,35 @@
 			}
 			&_5 {
 				grid-column-start: 3; 
-    			grid-column-end: 5; 
+				 grid-column-end: 5; 
+				 
+				 a:hover {
+					background: url(../../img/products/juicy_fruits_2.jpg) center (center/cover) no-repeat;
+ 				}
 			}
+			&-bg {
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: block;
+				width: 100%;
+				height: 100%;
+
+				&_1 {
+					background: url(../../img/products/awesome_sweets_1.jpg) center (center/cover) no-repeat;
+				}
+				&_2 {
+					background: url(../../img/products/organic_food.jpg) center (center/cover) no-repeat;
+					
+				}
+				&_3 {
+					background: url(../../img/products/tasty_meat_1.jpg) center (center/cover) no-repeat;
+				}
+				&_5 {
+					background: url(../../img/products/juicy_fruits_1.jpg) center (center/cover) no-repeat;
+				}
+			}
+			
 		}
 
 	}
@@ -47,10 +82,17 @@
 
 		position: relative;
 
-		span {
+		.link-text {
 			position: absolute;
 			bottom: 30px;
 			left: 30px
+		}
+		.link-text_yellow {
+			width: 224px;
+			position: absolute;
+			top: 83px;
+			left: 50%;
+			transform: translateX(-50%);
 		}
 	}
 }
