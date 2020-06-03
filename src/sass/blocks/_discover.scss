@@ -1,0 +1,23 @@
+.discover {
+	height: 690px;
+
+	background: url(../img/bg_agro-perfect.jpg) center (center/cover) no-repeat;
+
+	padding-top: 150px;
+
+	color: #c5c5c5;
+
+	&__title {
+		color: #ffffff;
+	}
+
+	&__text {
+		width: 620px;
+		font-size: 16px;
+		line-height: 24px;
+
+		p {
+			margin-bottom: 50px;
+		}
+	}
+}

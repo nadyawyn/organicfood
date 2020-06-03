@@ -3,22 +3,11 @@
 	padding-bottom: 140px;
 
 	&__title {
-		text-transform: uppercase;
-		font-size: 40px;
-		font-weight: 200;
+		color: #2e2e2e;
 		text-align: center;
-
-		.bold {
-			font-weight: 800;
-		}
 	}
+
 	&__subtitle {
-		font-size: 18px;
-		color: #b3b3b3;
-		text-align: center;
-
-		width: 530px;
-
 		margin: 0 auto 95px auto;
 	}
 

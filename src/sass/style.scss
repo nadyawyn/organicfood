@@ -43,8 +43,27 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 }
+.title {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 200;
+	line-height: 55px;
+
+		.bold {
+			font-weight: 800;
+		}
+}
+.subtitle {
+	font-size: 18px;
+	color: #b3b3b3;
+	text-align: center;
+
+	width: 530px;
+}
+
 
 @import "blocks/header";
 @import "blocks/products";
 @import "blocks/quality-food";
 @import "blocks/services";
+@import "blocks/discover";
