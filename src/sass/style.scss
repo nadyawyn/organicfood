@@ -1,9 +1,12 @@
 @import "libs/normalize";
 @import "libs/fonts";
-@import "libs/animate";
-
 @import "base/variables";
 @import "base/mixins";
+@import "libs/animate";
+@import "libs/slick";
+@import "libs/slick-theme";
+
+
 @import "base/buttons";
 
 * {

@@ -1,3 +1,85 @@
 .reviews {
 	height: 715px;
+
+	&__slider {
+		height: 715px;
+
+		&-item {
+			height: 715px;
+			&_1 {
+				background: url(../img/slider/001.jpg) center (center/cover) no-repeat;
+			}
+			&_2 {
+				background: url(../img/slider/002.jpg) center (center/cover) no-repeat;
+			}
+			&_3 {
+				background: url(../img/slider/003.jpg) center (center/cover) no-repeat;
+			}
+		}
+	}
+
+	&__title {
+		color: #ffffff;
+		margin: 0 auto;
+		text-align: center;
+
+		margin-top: 150px;
+	}
+	&__subtitle {
+		margin: 30px auto;
+	}
+
+	&__text {
+		margin: 50px auto 0 auto;
+		width: 970px;
+		color: #ffffff;
+		font-size: 24px;
+		line-height: 36px;
+
+		font-family: serif;
+		font-style: italic;
+
+		position: relative;
+
+		&::before {
+			content: "";
+			display: block;
+
+			position: absolute;
+			top: -15px;
+			left: -85px;
+
+			width: 47px;
+			height: 38px;
+
+			background: url(../icons/quote.png) center (center/contain) no-repeat;
+		}
+	}
+
+	&__person {
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-size: 16px;
+
+		display: flex;
+		align-items: center;
+
+		margin-top: 42px;
+
+		&-photo {
+			display: inline-block;
+			width: 74px;
+			height: 74px;
+
+		}
+		&-name {
+			padding-left: 40px;
+		}
+
+		&_1, &_2, &_3 {
+			.reviews__person-photo {
+				background: url(../img/slider/speaker001.png) center (center/contain) no-repeat;
+			}
+		}
+	}
 }
