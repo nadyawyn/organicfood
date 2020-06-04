@@ -1,0 +1,12 @@
+.partners {
+	height: 390px;
+	margin-top: 60px;
+	padding-top: 135px;
+
+	&__list {
+		@include reset-list;
+		padding: 0 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
