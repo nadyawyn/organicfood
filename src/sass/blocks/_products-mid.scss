@@ -1,0 +1,61 @@
+.products-mid {
+	&__grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 370px 370px;
+
+		&-item {
+			position: relative;
+			&_1 {
+				background: url(../img/products_mid/001.jpg) center (center/cover) no-repeat;
+			}
+			&_2 {
+				background: url(../img/products_mid/002.jpg) center (center/cover) no-repeat;
+			}
+			&_3 {
+				background: url(../img/products_mid/003.jpg) center (center/cover) no-repeat;
+			}
+			&_4 {
+				background: url(../img/products_mid/004.jpg) center (center/cover) no-repeat;
+			}
+			&_5 {
+				background: url(../img/products_mid/005.jpg) center (center/cover) no-repeat;
+			}
+			&_6 {
+				background: url(../img/products_mid/006.jpg) center (center/cover) no-repeat;
+			}
+			&_7 {
+				background: url(../img/products_mid/007.jpg) center (center/cover) no-repeat;
+			}
+			&_8 {
+				background: url(../img/products_mid/008.jpg) center (center/cover) no-repeat;
+			}
+		}
+	}
+	&__link {
+		display: block;
+		height: 100%;
+		width: 100%;
+		color: #ffffff;
+		font-size: 20px;
+		line-height: 30px;
+		text-decoration: none;
+		text-align: center;
+		span {
+			display: none;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+
+		&:hover {
+			
+			background-color: rgba($color: #000000, $alpha: 0.6);
+
+			span {
+				display: block;
+			}
+		}
+	}
+}
