@@ -1,0 +1,23 @@
+@media (max-width: $laptop-width_l) {
+
+
+
+	.footer {
+		&__info {
+			&-item {
+				&_5 {
+					grid-column-start: 2; 
+					grid-column-end: 5;
+				}
+				&_6 {
+					grid-column-start: 1; 
+					grid-column-end: 5; 
+
+				}
+			}
+		}
+		&__social {
+			margin-top: 5px;
+		}
+	}
+}
