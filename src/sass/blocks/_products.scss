@@ -6,7 +6,8 @@
 
 
 		display: grid;
-		grid-template-columns: 380px 380px 120px 500px;
+		// grid-template-columns: 380px 380px 120px 500px;
+		grid-template-columns: 1fr 1fr 120px 1fr;
 		grid-template-rows: 310px 370px;
 
 
