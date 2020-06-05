@@ -34,6 +34,23 @@
 			right: 30px;
 		}
 	}
+	.tips {
+		&__grid {
+			&-item {
+				height: 263px;
+			}
+			&-img {
+				width: 180px;
+			}
+			&-text {
+				width: calc(100% - 180px);
+				padding: 20px;
+				h3 {
+					margin: 0;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: $laptop-width_s){
@@ -72,5 +89,9 @@
 		&__item {
 			font-size: 16px;
 		}
+	}
+	.discover {
+		height: 650px;
+		padding-top: 107px;
 	}
 }
