@@ -51,6 +51,11 @@
 			}
 		}
 	}
+	.reviews {
+		&__text {
+			width: 760px;
+		}
+	}
 }
 
 @media (max-width: $laptop-width_s){
@@ -113,6 +118,21 @@
 	.products-mid {
 		&__grid {
 			grid-template-rows: 280px 280px;
+		}
+	}
+
+	.reviews {
+		&__title {
+			margin-top: 80px;
+		}
+		&__text {
+			width: 760px;
+		}
+		&__slider {
+			height: 600px;
+			&-item {
+				height: 600px;
+			}
 		}
 	}
 }
