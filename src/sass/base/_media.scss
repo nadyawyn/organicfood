@@ -56,6 +56,11 @@
 			width: 760px;
 		}
 	}
+	.footer {
+		&__map {
+			width: 455px;
+		}
+	}
 }
 
 @media (max-width: $laptop-width_s){
@@ -157,6 +162,32 @@
 			margin: 0 15px;
 
 			align-self: center;
+		}
+	}
+	.footer {
+		&__map {
+			width: 415px;
+		}
+		&__info {
+			display: flex;
+			flex-flow: row wrap;
+			min-width: 560px;
+			&-item {
+				&_1 {
+					flex-basis: 100%;
+					margin-bottom: 30px;
+				}
+				&_2, &_3 {
+					margin-left: 30px;
+					flex-basis: 105px;
+				}
+				&_4, &_5, &_6 {
+					flex-basis: 100%;
+				}
+				&_6 {
+					margin: 40px 0;
+				}
+			}
 		}
 	}
 }
