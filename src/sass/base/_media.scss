@@ -192,6 +192,12 @@
 	}
 }
 @media(max-width: $tablet-width) {
+	.mobile_visible {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 30px;
+	}
 	.header {
 		position: relative;
 		&__hamburger {

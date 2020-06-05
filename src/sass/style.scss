@@ -81,6 +81,9 @@ body {
 	}
 
 }
+.mobile_visible {
+	display: none;
+}
 
 @import "blocks/header";
 @import "blocks/products";
