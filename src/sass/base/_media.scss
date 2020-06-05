@@ -37,6 +37,11 @@
 }
 
 @media (max-width: $laptop-width_s){
+	.header {
+		&__nav-links {
+			margin-left: 130px;
+		}
+	}
 	.products {
 		&__grid {
 			grid-template-rows: 210px 270px;
@@ -46,6 +51,16 @@
 		a .link-text_yellow {
 			font-size: 36px;
 			padding-left: 15px;
+		}
+	}
+	.quality-food {
+		&__item {
+			&_1 {
+				width: 593px;
+			}
+			&_2 {
+				left: 304px;
+			}
 		}
 	}
 }
