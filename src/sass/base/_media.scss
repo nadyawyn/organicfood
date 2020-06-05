@@ -199,6 +199,7 @@
 		left: 30px;
 	}
 	.header {
+		height: 636px;
 		position: relative;
 		&__hamburger {
 			position: fixed;
@@ -274,9 +275,14 @@
 			}
 
 			&-link {
+				a {
+					padding-top: 32px;
+				}
 				a.active, a:hover {
 					&::after {
-						bottom: -20px;
+						height: 1px;
+						width: 90px;
+						bottom: -12px;
 					}
 				}
 			}
@@ -290,4 +296,52 @@
 			left: 30px;
 		}
 	}
+	.products {
+		&__grid {
+			grid-template-columns: 1fr;
+			grid-template-rows: 130px 130px 130px 130px 130px;
+
+			&-item {
+				grid-column-start: 1;
+				grid-column-end: 2;
+
+				&_1 {
+					grid-row-start: 1;
+					grid-row-end: 2;
+				}
+				&_2 {
+					grid-row-start: 2;
+					grid-row-end: 3;
+				}
+				&_3 {
+					grid-row-start: 3;
+					grid-row-end: 4;
+				}
+				&_4 {
+					grid-row-start: 4;
+					grid-row-end: 5;
+					a {
+						span.link-text_yellow {
+							top:20px;
+							width: 100%;	
+						}
+					}
+					
+				}
+				&_5 {
+					grid-row-start: 5;
+					grid-row-end: 6;
+				}
+			}
+		}
+	}
+}
+@media(max-width:580px) {
+	.header {
+		&__organic-food {
+			width: 100%;
+			height: auto;
+		}
+	}
+	
 }
