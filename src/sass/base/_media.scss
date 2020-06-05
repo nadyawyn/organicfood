@@ -110,4 +110,9 @@
 			}
 		}
 	}
+	.products-mid {
+		&__grid {
+			grid-template-rows: 280px 280px;
+		}
+	}
 }
