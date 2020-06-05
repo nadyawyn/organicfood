@@ -94,4 +94,20 @@
 		height: 650px;
 		padding-top: 107px;
 	}
+	.tips {
+		height: 485px;
+	}
+	.decor {
+		height: 580px;
+	}
+	.progress {
+		height: 450px;
+		margin-top: 70px;
+		&__item {
+			padding-left: 85px;
+			.bold {
+				font-size: 36px;
+			}
+		}
+	}
 }
