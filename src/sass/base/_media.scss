@@ -385,6 +385,31 @@
 			}
 		}
 	}
+	.decor {
+		background: url(../img/tasty_cakes.jpg) center right/cover no-repeat;
+		padding-top: 130px;
+		.container {
+			img {
+				display: none;
+			}
+		}
+
+		&__label {
+			display: none;
+		}
+	}
+	.progress {
+		&__subtitle {
+			margin-bottom: 15px;
+		}
+		&__items {
+			flex-flow: row wrap;
+			justify-content: center;
+		}
+		&__item {
+			margin: 15px;
+		}
+	}
 }
 @media(max-width:580px) {
 	.header {
@@ -458,6 +483,12 @@
 			}
 		}
 	}
+	.decor {
+		display: none;
+	}
+	.progress {
+		margin-top: 150px;
+	}
 }
 @media(max-width: $mobile-width_m) {
 	.header {
@@ -479,5 +510,8 @@
 			font-size: 24px;
 			line-height: 34px;
 		}
+	}
+	.progress {
+		margin-top: 190px;
 	}
 }
