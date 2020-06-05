@@ -345,6 +345,7 @@
 	.services {
 		background-color: #fff;
 		padding-top: 40px;
+		padding-bottom: 80px;
 		&__subtitle {
 			margin: 0 auto 27px auto;
 		}
@@ -354,6 +355,13 @@
 		}
 		&__item {
 			margin: 15px;
+		}
+	}
+	.discover {
+		min-height: 590px;
+		padding-top: 75px;
+		&__text {
+			width: 100%;
 		}
 	}
 }
@@ -397,6 +405,14 @@
 			width: 100%;
 		}
 	}
+	.discover {
+		padding-top: 40px;
+
+		&__title {
+			font-size: 28px;
+			line-height: 40px;
+		}
+	}
 }
 @media(max-width: $mobile-width_m) {
 	.header {
@@ -410,5 +426,13 @@
 	}
 	.logo {
 		width: 88px;
+	}
+	.discover {
+		padding-top: 20px;
+
+		&__title {
+			font-size: 24px;
+			line-height: 34px;
+		}
 	}
 }
