@@ -453,6 +453,7 @@
 		}
 	}
 	.blog-posts {
+		min-height: 1140px;
 		&__wrapper {
 			flex-flow: column nowrap;
 		}
@@ -548,6 +549,7 @@
 		}
 	}
 	.blog-posts {
+		min-height: 900px;
 		&__item {
 			height: 200px;
 		}
@@ -555,6 +557,12 @@
 			&-text {
 				left: 15px;
 			}
+		}
+		&__title {
+			margin-top: 50px;
+		}
+		&__wrapper {
+			margin-top: 50px;
 		}
 	}
 }
