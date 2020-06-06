@@ -263,6 +263,7 @@
 					top:18px;
 					left: -5px;
 					transform: rotate(45deg);
+					box-shadow: 0 0 8px rgba($color: #000000, $alpha: .8);
 				}
 				&::after {
 					content: "";
@@ -274,6 +275,7 @@
 					top:18px;
 					left: -5px;
 					transform: rotate(-45deg);
+					box-shadow: 0 0 8px rgba($color: #000000, $alpha: .8);
 				}
 			}
 

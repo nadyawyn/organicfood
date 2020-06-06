@@ -13,9 +13,17 @@
 
 	&_white {
 		background: #ffffff;
+
+		&:hover, &:focus {
+			box-shadow: 0 0 20px rgba($color: #ffffff, $alpha: .8);
+		}
 	}
 	&_yellow {
 		background: $color_yellow;
 		color: #666666;
+
+		&:hover, &:focus {
+			box-shadow: 0 0 20px rgba($color_yellow, $alpha: .8);
+		}
 	}
 }
