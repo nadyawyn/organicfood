@@ -462,7 +462,27 @@
 			height: 270px;
 		}
 	}
+	.partners {
+		margin-top: -60px;
+		min-height: 450px;
+	}
+	.footer {
+	
+		&__map {
+			top: 0;
+			left: 0;
+			right: auto;
+			bottom: auto;
+			width: 100%;
+			height: 400px;
+		}
+		&__info {
+			margin-top: 320px;
+			min-width: 300px;
+		}
+	}
 }
+
 @media(max-width:580px) {
 	.header {
 		&__organic-food {
@@ -563,6 +583,18 @@
 		}
 		&__wrapper {
 			margin-top: 50px;
+		}
+	}
+	.partners {
+		min-height: 700px;
+
+		&__item {
+			margin: 5px 15px;
+		}
+	}
+	.footer {
+		&__info {
+			margin-top: 320px;
 		}
 	}
 }
