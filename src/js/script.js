@@ -34,7 +34,11 @@ $(document).ready(function () {
 		$('.header__hamburger').fadeIn('slow');
 	});
 
+	//Nav
 
+	$('.header__nav-link').on('click', function () {
+		$(this).addClass('active').siblings().removeClass('active');
+	});
 
 	/*
 		$('.button_mini').each(function (i) {
