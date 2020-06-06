@@ -14,7 +14,7 @@ $(document).ready(function () {
 			{
 				breakpoint: 992,
 				settings: {
-					dots: false,
+					dots: true,
 					arrows: false
 				}
 			}

@@ -423,6 +423,35 @@
 			}
 		}
 	}
+	.reviews {
+		&__text {
+			margin: 20px auto 0 auto;
+			width: 90%;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			line-height: 28px;
+
+			&::before {
+				width: 38px;
+				left: auto;
+				top: auto;
+				bottom: 70px;
+				right: 10px;
+			}
+		}
+		&__title {
+			margin-top: 30px;
+			font-size: 32px;
+		}
+		&__subtitle {
+			margin: 10px auto;
+			width: 100%;
+			font-size: 16px;
+		}
+		.slick-dots {
+			bottom: -57px;
+		}
+	}
 	.blog-posts {
 		&__wrapper {
 			flex-flow: column nowrap;
@@ -552,5 +581,12 @@
 	}
 	.progress {
 		margin-top: 190px;
+	}
+	.reviews {
+		&__slider {
+			&-item {
+				height: 680px;
+			}
+		}
 	}
 }
