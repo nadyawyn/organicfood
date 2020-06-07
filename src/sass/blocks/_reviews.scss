@@ -70,15 +70,26 @@
 			display: inline-block;
 			width: 74px;
 			height: 74px;
+			border-radius: 100%;
 
 		}
 		&-name {
 			padding-left: 40px;
 		}
 
-		&_1, &_2, &_3 {
+		&_1 {
 			.reviews__person-photo {
 				background: url(../img/slider/speaker001.png) center (center/contain) no-repeat;
+			}
+		}
+		&_2 {
+			.reviews__person-photo {
+				background: url(../img/slider/speaker002.png) center (center/contain) no-repeat;
+			}
+		}
+		&_3 {
+			.reviews__person-photo {
+				background: url(../img/slider/speaker003.png) center (center/contain) no-repeat;
 			}
 		}
 	}
